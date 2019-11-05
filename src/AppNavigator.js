@@ -1,6 +1,11 @@
 import { createAppContainer } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
-import { ConfirmSignUp, Hello, User, SignIn, SignUp, Forgot, ForgotPassSubmit } from './screens/Authenticator'
+// import { createBottomTabNavigator } from 'react-navigation-tabs'
+
+
+import { ConfirmSignUp, Hello, SignIn, SignUp, Forgot, ForgotPassSubmit } from './screens'
+import { Authorized } from './UserNavigator'
+
 
 const AppNavigator = createStackNavigator(
   {
@@ -9,7 +14,7 @@ const AppNavigator = createStackNavigator(
     SIGN_UP: { screen: SignUp },
     FORGOT: { screen: Forgot },
     CONFIRM_SIGN_UP: { screen: ConfirmSignUp },
-    USER: { screen: User },
+    AUTHORISED: { screen: Authorized },
     FORGOT_PASSWORD_SUBMIT: { screen: ForgotPassSubmit }
   },
   {
