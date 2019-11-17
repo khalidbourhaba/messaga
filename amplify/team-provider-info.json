@@ -32,5 +32,22 @@
                 "messaga6c171df6": {}
             }
         }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-messaga-dev-140250-authRole",
+            "UnauthRoleArn": "arn:aws:iam::911981297123:role/amplify-messaga-dev-140250-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::911981297123:role/amplify-messaga-dev-140250-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-messaga-dev-140250-deployment",
+            "UnauthRoleName": "amplify-messaga-dev-140250-unauthRole",
+            "StackName": "amplify-messaga-dev-140250",
+            "StackId": "arn:aws:cloudformation:us-east-2:911981297123:stack/amplify-messaga-dev-140250/8e5dda50-093a-11ea-9cc7-064e3beebd9c"
+        },
+        "categories": {
+            "auth": {
+                "messaga6c171df6": {}
+            }
+        }
     }
 }
